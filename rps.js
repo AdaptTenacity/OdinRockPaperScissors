@@ -1,13 +1,10 @@
 // define array of options
 var rps = ["rock", "paper", "scissors"];
 
-//define function grabbing computor's random choice
+//define function grabbing computor's random choice and return result for further use
 const getComputerChoice = () => {
     return rps[Math.floor(Math.random() * rps.length)].toLowerCase();
 };
-
-// Log choice to console.
-console.log(getComputerChoice());
 
 function getHumanChoice() {
     const humanChoice = prompt("Let's play rock paper scissors!").toLowerCase();
