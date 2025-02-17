@@ -44,11 +44,21 @@ const computerChoice = getComputerChoice();
 
 playRound(humanChoice, computerChoice);
 
+// If computer wins, its score increases. if user wins, their score increases.
+
+if (console.log("You Win!")) {
+    humanScore ++
+    console.log("Your score went up!:", humanScore)
+} else if (console.log("You Lose!")) {
+    computerScore ++
+    console.log("Computer score went up!", computerScore)
+};
+
+
 
 // Define two parameters for playRound: humanChoice and computerChoice. Use these two parameters to take the human and computer choices as arguments.
-
-
 // Write the code for your playRound function to console.log a string value representing the round winner, such as: “You lose! Paper beats Rock”.
+
 
 // Increment the humanScore or computerScore variable based on the round winner.
 
