@@ -23,8 +23,8 @@ var computerScore = 0
 // The game rounds
 
 function playRound(humanChoice, computerChoice) {
-    console.log("Human chose: ", humanChoice)
-    console.log("Computer chose: ", computerChoice)
+    console.log("Human chose:", humanChoice)
+    console.log("Computer chose:", computerChoice)
 
         if (humanChoice === computerChoice) {
         console.log("It is a tie!")
