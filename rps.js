@@ -10,8 +10,9 @@ const getComputerChoice = () => {
 console.log(getComputerChoice());
 
 function getHumanChoice() {
-    const humanChoice = prompt("Let's play rock paper scissors!");
+    const humanChoice = prompt("Let's play rock paper scissors!").toLowerCase();
 console.log(humanChoice);
+
 return humanChoice;
 }
 // to get human choice, a human needs to choose rock, paper, or scissors. So those options have to be avaliable to them. 
